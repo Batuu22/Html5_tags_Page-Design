@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">	
+<title>HTML ile yeni Nesil Sayfa Tasarimi</title>
+
+<style type="text/css">
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, header,
+aside, nav, figure, section, article, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+.container{width:900px; height: 800px; margin: 10px auto;}
+header{width:900px; height: 100px;}
+nav{ width: 900px; height:40px; background: #447af8; margin-top: 10px;}
+li{display:block; width: 180px; height: 30px; float: left; text-align: center; font: 15px tahoma; padding-top: 10px;}
+aside{width:200px; height:535px; background: #ddacb2; margin-top: 10px; float: left;}
+main{width:670px; height: 525px; background: #f4f472; float: left; margin-top: 10px; margin-left: 10px; padding: 10px 10px 0 10px; font: 14px tahoma;}
+footer{width:900px; height: 100px; background: #fdc; float: left; margin-top: 10px; text-align: center; line-height: 100px;}
+header figure{width:100px; height:100px; float: left;}
+header aside{width:792px; height:62px; border:4px solid rgb(52, 229, 8); float: left; border-radius:5px; margin:0; font: 20px tahoma; text-align: center; padding-top: 30px;}
+a{text-decoration: none; color:#fff;}
+a:hover{color: darksalmon;}
+main section article{width:650px; height: 165px;}
+</style>    
+</head>
+
+<body>
+<div class="container">
+<header>
+<figure><img src="img/Sismam-Agac-Dekor-Tablo-Poster-Afis_1.jpg" width="100" height="100" alt="figure"></figure>
+<aside>.........SITE BASLIGI...........</aside>	
+</header>
+<nav>
+<ul>
+<li><a href="">AnaSayfa</a></li>
+<li><a href="">Hakkimizda</a></li>
+<li><a href="">Urunler</a></li>
+<li><a href="">Galeri</a></li>
+<li><a href="">Iletisim</a></li>       
+</ul>
+</nav>
+<aside></aside>
+<main>
+<section>
+<article>
+<h3>Caption1</h3>
+<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
+et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
+rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+</p>
+</article>
+<article>
+<h3>Caption2</h3>	
+<p>omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae
+sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+</p>
+</article>	
+</section>
+<section>
+<h3>Caption3</h3>
+<details>
+<summary>Detail1</summary>	
+omnis voluptas assumenda est, omnis dolor repellendus.
+</details>
+<details>
+<summary>Detail2</summary>	
+omnis voluptas assumenda est, omnis dolor repellendus.
+</details>
+<details>
+<summary>Detail3</summary>	
+omnis voluptas assumenda est, omnis dolor repellendus.
+</details>
+<details>
+<summary>Detail4</summary>	
+omnis voluptas assumenda est, omnis dolor repellendus.
+</details>
+</section>
+</main>
+<footer>
+<address>
+<small>&copy;2023 <mark>Batuhan Temel</mark> tum haklari saklidir.</small>
+</address>	
+</footer>    
+</div>
+</body>    
+</html>
